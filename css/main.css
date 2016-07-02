@@ -1,0 +1,173 @@
+nav{
+	margin: 0 1%;
+	padding: 1% 5%;
+}
+nav div {
+	display: inline-block;
+}
+div a  {
+	font-family: 'Lato', sans-serif;
+   text-decoration: none;
+   color: #464646;
+   font-weight: bold;
+   font-size: 16px;
+   
+}
+div:last-child {
+	float: right;
+    
+}
+input {
+	border: none;
+}
+header {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+header img {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+}
+header p {
+	font-size: 18px;
+	color: #464646;
+}
+header h1 {
+	font-size: 65px;
+	font-family: 'Lora', serif;
+	line-height: 65px;
+}
+
+header h6 {
+	color: #878787;
+	font-size: 22px;
+	margin: 5% 0 3% 0;
+	font-weight: normal;
+}
+hr {
+	color: 1px solid #BD925B;
+	width: 7%;
+	margin: 3% auto;
+}
+article {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+article p {
+	font-size: 19px;
+	text-align: left;
+	color: #565656;
+	line-height: 30px;
+	padding: 0 15%;
+}
+.quote {
+	font-size: 24px;
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 700;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+.images {
+	height: 450px;
+}
+div.images img {
+	float: left;
+}
+div.images img:first-child {
+	margin-left: 9%;
+}
+div.images img:nth-child(n+2) { 
+     margin-left: 7px;
+ }
+ div.images img:last-child {
+ 	margin-top: 7px;
+ }
+ section {
+ 	padding-bottom: 35px;
+ }
+section footer {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+section > footer > div {
+	color: #565656;
+}
+footer .fa-heart {
+	color: #e04f4a;
+	margin-bottom: 3%;
+}
+footer textarea {
+	border-color: #e5e5e5;
+	width: 100%;
+	padding: 5px;
+}
+footer .button-group {
+	text-align: left;
+	width: 100%;
+}
+footer .button-group button {
+	border: none;
+	background-color: white;
+	font-size: 12px;
+	color: #565656;
+	padding:0 5px 0 0;
+}
+.button-right {
+	float: right;
+}
+
+footer .button-group button:hover {
+	cursor: pointer;
+	color: #5e5e5e;
+	transition: 0.3s ;
+} 
+
+body > footer {
+	height: 200px;
+	position: relative;
+	background: #F8F9FD;
+	padding: 0 20%;
+}
+
+.previous-article,
+.next-article {
+	width: 60%;
+	display: inline-block;
+	position: relative;
+} 
+
+/* Media Queries */
+
+@media(max-width: 650px){
+	 h1 {
+		font-weight: normal;
+	}
+	header h6 {
+		color: #262626;
+	}
+	article {
+		width: 40%;
+		text-align: center;
+		display: block;
+        }
+	article img {
+		width: 350px;
+		height: 310px;
+
+       }
+       
+      .previous-button p {
+      	display: none;
+      }
+      .next-button p {
+      	display: none;
+      }
+      footer textarea {
+      	width: 50%;
+      }
+ }
